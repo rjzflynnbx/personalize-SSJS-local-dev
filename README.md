@@ -22,7 +22,7 @@ Write your SSJS in [progammable.js](https://github.com/rjzflynnbx/personalize-SS
 
 Load [functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js") as a  Sitecore Personalize [JS Module](https://doc.sitecore.com/cdp/en/users/sitecore-personalize/js-modules.html) and reference  it in all your decision model programmables.
 
-Inside [progammable.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/progammable.js "progammable.js") you will have autocomplete for all the functions in [functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js").
+Using visual studio code to develop locally - inside [progammable.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/progammable.js "progammable.js") you will have autocomplete for all the functions in [functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js").
 
 You will also have autocomplete for the "Guest" object.
 
