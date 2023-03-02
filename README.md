@@ -14,7 +14,7 @@ node
 
 Write your SSJS in [progammable.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/progammable.js "progammable.js")
 
-[functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js") contains utility functions for writing SSJS 
+[functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js") contains utility functions specific to Sitecore Personalize for writing SSJS 
 
 [utils.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/utils.js "utils.js") contins some functions to enable local development of Sitecore Personalize SSJS 
 
