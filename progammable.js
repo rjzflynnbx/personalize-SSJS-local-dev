@@ -3,7 +3,8 @@ const { getMostRecentWebSession, sessionContainsEventOfType } = require('./funti
 const guest = loadLocalGuest('guest.json');
 
 (function () {
+    //example usage
     var mostRecentWebSession = getMostRecentWebSession(guest);
-    var sessionContainsViewEvent = sessionContainsEventOfType(mostRecentWebSession,"VIEWYY");
-    print(guest.orders[0].orderItems)
+    var sessionContainsViewEvent = sessionContainsEventOfType(mostRecentWebSession,"VIEW");
+    print(sessionContainsViewEvent);
 })();
