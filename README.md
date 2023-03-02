@@ -7,8 +7,8 @@ This repo makes it easy to write and test your Sitecore Personalize SSJS locally
 
 # Prerequisites
 
-> node
-> Visual Studio Code
+* node
+* Visual Studio Code
 
 
 ## What's here
