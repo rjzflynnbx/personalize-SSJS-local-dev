@@ -3,8 +3,8 @@ const { getMostRecentWebSession, sessionContainsEventOfType } = require('./funct
 const guest = loadLocalGuest('guest.json');
 
 (function () {
-    //example usage
     //you can copy & paste this code (minus lines 1 2 & 3) directly into an actual programmable, provided you load functions.js as a JS module
+    //example usage
     var mostRecentWebSession = getMostRecentWebSession(guest);
     var sessionContainsViewEvent = sessionContainsEventOfType(mostRecentWebSession,"VIEW");
     print(sessionContainsViewEvent); // prints "true"
