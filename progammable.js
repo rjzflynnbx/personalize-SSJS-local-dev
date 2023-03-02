@@ -1,5 +1,5 @@
 const { loadLocalGuest, print } = require('./utils.js');
-const { getMostRecentWebSession, sessionContainsEventOfType } = require('./funtions.js');
+const { getMostRecentWebSession, sessionContainsEventOfType } = require('./functions.js');
 const guest = loadLocalGuest('guest.json');
 
 (function () {
