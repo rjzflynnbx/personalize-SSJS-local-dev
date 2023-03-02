@@ -10,16 +10,27 @@ This repo makes it easy to write and test your Sitecore Personalize SSJS locally
 node
 
 
-# How to
+## What's here
 
 Write your SSJS in [progammable.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/progammable.js "progammable.js")
-
-Remove lines 1,2, and 3 when porting from your local code to an actual Sitecore Personalize programmable or real time audience.
-
 
 [functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js") contains utility functions for writing SSJS 
 
 [utils.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/utils.js "utils.js") contins some functions to enable local development of Sitecore Personalize SSJS 
+
+## How to use
+
+Load [functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js") as a  Sitecore Personalize [JS Module](https://doc.sitecore.com/cdp/en/users/sitecore-personalize/js-modules.html) and reference  it in all your decision model programmables.
+
+Inside [progammable.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/progammable.js "progammable.js") you will have autocomplete for all the functions in [functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js").
+
+You will also have autocomplete for the "Guest" object.
+
+Remove lines 1,2, and 3 when porting from your local code to an actual Sitecore Personalize programmable or real time audience.
+
+
+
+
 
 ## Adding additional Guest JSON files
 
