@@ -27,6 +27,7 @@ function loadLocalGuest(path) {
     return guest;
 }
 
+//this function exists in Sitecore Personalizr SSJS for printing to the logs
 function print(string) {
     console.log(string);
 }
