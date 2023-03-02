@@ -15,13 +15,13 @@ This repo makes it easy to write and test your Sitecore Personalize SSJS locally
 
 [progammable.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/progammable.js "progammable.js") template to use for writing your programmable code, execute this file with node to test locally
 
-[functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js") contains utility functions specific to Sitecore Personalize for writing SSJS, load this as a JS module into your programmables
+[functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js") contains utility functions specific to Sitecore Personalize for writing SSJS, load this as a JS module into your programmables (without the node exports function at the bottom)
 
 [utils.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/utils.js "utils.js") contins some functions to enable local development of Sitecore Personalize SSJS 
 
 ## How to use
 
-Load [functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js") as a  Sitecore Personalize [JS Module](https://doc.sitecore.com/cdp/en/users/sitecore-personalize/js-modules.html) and reference  it in all your decision model programmables.
+Load [functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js") as a  Sitecore Personalize [JS Module](https://doc.sitecore.com/cdp/en/users/sitecore-personalize/js-modules.html) (without the node exports function at the bottom) and reference  it in all your decision model programmables.
 
 Using visual studio code to develop locally - inside [progammable.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/progammable.js "progammable.js") you will have autocomplete for all the functions in [functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js").
 
