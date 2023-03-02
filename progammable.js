@@ -6,5 +6,5 @@ const guest = loadLocalGuest('guest.json');
     //example usage
     var mostRecentWebSession = getMostRecentWebSession(guest);
     var sessionContainsViewEvent = sessionContainsEventOfType(mostRecentWebSession,"VIEW");
-    print(sessionContainsViewEvent);
+    print(sessionContainsViewEvent); // prints "true"
 })();
