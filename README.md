@@ -4,7 +4,7 @@
 This repo makes it easy to write and test your Sitecore Personalize Server-Side JavaScript locally using Visual Studio Code & Node.
 
 
-[Server-side JavaScript](https://doc.sitecore.com/cdp/en/users/sitecore-personalize/using-server-side-javascript-in-sitecore-personalize.html) (SSJS) is an extended version of JavaScript that enables back-end access to systems and servers. Sitecore Personalize can run server-side JavaScript when  [running programmable decisions in Sitecore Personalize decisioning](https://doc.sitecore.com/cdp/en/users/sitecore-personalize/managing-programmable-decisions.html "Managing programmable decisions"). Sitecore Personalize can also run SSJS when  [generating real-time audiences in experiments](https://doc.sitecore.com/cdp/en/users/sitecore-personalize/build-a-real-time-audience-in-a-web-experiment.html "Build a real-time audience in a web experiment").
+[Server-side JavaScript](https://doc.sitecore.com/cdp/en/users/sitecore-personalize/using-server-side-javascript-in-sitecore-personalize.html) (SSJS) is an extended version of JavaScript that enables back-end access to systems and servers. Sitecore Personalize can run server-side JavaScript when  [running programmable decisions in Sitecore Personalize decisioning](https://doc.sitecore.com/cdp/en/users/sitecore-personalize/managing-programmable-decisions.html "Managing programmable decisions")or  when  [applying a Condition](https://doc.sitecore.com/cdp/en/users/sitecore-personalize/build-a-real-time-audience-in-a-web-experiment.html "Build a real-time audience in a web experiment").
 
 
 # Prerequisites
