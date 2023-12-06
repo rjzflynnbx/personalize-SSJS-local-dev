@@ -15,7 +15,7 @@ This repo makes it easy to write and test your Sitecore Personalize Server-Side 
 
 ## What's here
 
-[progammable.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/progammable.js "progammable.js") template to use for writing your programmable code, execute this file with node to test locally
+[progammable.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/progammable.js "progammable.js") - A template to use for writing your programmable code, execute this file with node to test locally
 
 [functions.js](https://github.com/rjzflynnbx/personalize-SSJS-local-dev/blob/main/functions.js "functions.js") contains utility functions specific to Sitecore Personalize for writing SSJS, load this as a JS module into your programmables (without the node exports function at the bottom)
 
