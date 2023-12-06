@@ -29,7 +29,7 @@ Using visual studio code to develop locally - inside [progammable.js](https://gi
 
 You will also have autocomplete for the "Guest" object.
 
-Remove lines 1,2, and 3 when porting from your local code to an actual Sitecore Personalize programmable or real time audience.
+Remove lines 1,2, and 3 of "progammable.js" when porting your local code to an actual Decision Model "programmable" or Condition.
 
 
 
